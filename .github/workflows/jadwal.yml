@@ -13,8 +13,8 @@ jobs:
       - name: Salin site.txt baru ke root
         run: |
           cp update_staged/site.txt site.txt
-          git config user.name "radit"
-          git config user.email "radit@mcoel.com"
+          git config user.name "botdoh"
+          git config user.email "kraytahalu@gmail.com"
           git add site.txt
           git commit -m "Scheduled update for site.txt at 23:00 WIB"
           git push origin main
